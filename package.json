@@ -7,14 +7,18 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "web": "react-scripts start"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.1",
     "expo": "^47.0.13",
     "react": "18.1.0",
+    "react-dom": "^18.2.0",
     "react-native": "0.70.6",
-    "react-query": "^3.39.2"
+    "react-native-web": "~0.18.7",
+    "react-query": "^3.39.2",
+    "web": "^0.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
